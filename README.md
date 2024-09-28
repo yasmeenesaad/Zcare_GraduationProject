@@ -35,7 +35,6 @@ ZCare is a healthcare management platform developed for managing patients, healt
    - Update the `persistence.xml` file with your MySQL database connection settings (e.g., database URL, username, and password).
 
 ### 2. Build the Project:
-    bash
    mvn clean install
    
 
@@ -44,9 +43,6 @@ ZCare is a healthcare management platform developed for managing patients, healt
 - Start Tomcat, then access the application at:  
   [http://localhost:8080/zcare](http://localhost:8080/zcare).
 
-### 4. Access API Documentation:
-- The API documentation is available at:  
-  [http://localhost:8080/zcare/api-docs](http://localhost:8080/zcare/api-docs).
 
 
 ## Contribution Guidelines
