@@ -28,17 +28,17 @@ ZCare is a healthcare management platform developed for managing patients, healt
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/zcare-backend.git
-   
-### 1. Configure the Database:
+   https://github.com/yasmeenesaad/Zcare_GraduationProject
+
+2. Configure the Database:
    - Create a MySQL database.
    - Update the `persistence.xml` file with your MySQL database connection settings (e.g., database URL, username, and password).
 
-### 2. Build the Project:
+3. **Build the Project**:
+   ```bash
    mvn clean install
    
-
-### 3. Deploy to Apache Tomcat:
+5. Deploy to Apache Tomcat:
 - Copy the generated WAR file from the `target/` directory to the `webapps/` folder of your Tomcat installation.
 - Start Tomcat, then access the application at:  
   [http://localhost:8080/zcare](http://localhost:8080/zcare).
