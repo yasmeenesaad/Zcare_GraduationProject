@@ -34,12 +34,8 @@ ZCare is a healthcare management platform developed for managing patients, healt
    - Create a MySQL database.
    - Update the `persistence.xml` file with your MySQL database connection settings (e.g., database URL, username, and password).
 
-<<<<<<< HEAD
-### 2. Build the Project:
-=======
 3. **Build the Project**:
    ```bash
->>>>>>> 7f01d0d9d78cefad58ebac819d904aaeda89aa52
    mvn clean install
    
 5. Deploy to Apache Tomcat:
